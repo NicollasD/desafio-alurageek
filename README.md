@@ -1,7 +1,9 @@
 <h1 align="center">Challenge AluraGeek - Alura + Oracle</h1>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/be30f88b-9921-4783-9398-382d25ba04ed">
 
 ![alura-geek](https://github.com/user-attachments/assets/a3180633-03cf-46b8-a104-5d68d5f0e9e3)
-
+</p>
 
 Neste repositório você encontrará o projeto para o Challenge AluraGeek, elaborado durante o curso de Front-end da Alura + Oracle Next Education.
 O projeto consiste em um site para e-commerce que mostra os produtos disponíveis e permite o usuário adicionar e excluir produtos da lista, além de fazer pesquisas pelo produto desejado.
