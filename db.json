@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "./src/img/malenia.webp",
+      "name": "Elden Ring Figure (Malenia)",
+      "price": "99,90"
+    },
+    {
+      "id": 2,
+      "image": "./src/img/melina.webp",
+      "name": "Elden Ring Figure (Melina)",
+      "price": "99,90"
+    },
+    {
+      "id": 3,
+      "image": "./src/img/ranni.webp",
+      "name": "Elden Ring Figure (Ranni)",
+      "price": "99,90"
+    },
+    {
+      "id": 4,
+      "image": "./src/img/raging-wolf.webp",
+      "name": "Elden Ring Figure (Raging Wolf)",
+      "price": "99,90"
+    },
+    {
+      "id": 5,
+      "image": "./src/img/gwent.webp",
+      "name": "Gwent Card Game Limited Edition",
+      "price": "119,90"
+    },
+    {
+      "id": 6,
+      "image": "./src/img/mandalorian.webp",
+      "name": "Mandalorian Action Figure",
+      "price": "159,90"
+    }
+  ]
+}

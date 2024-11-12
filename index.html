@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+</head>
+
+<body>
+    <header id="header__container">
+        <div id="header__content">
+            <a href id="header__logo">
+                <img id="header__logo__icon" src="./src/img/logo.svg" alt="alurageek-logo">
+                <h1>Alura<span>Geek</span></h1>
+            </a>
+            <nav id="header__menu">
+                <ul id="header__menu__links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#products">Produtos</a></li
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main__content">
+        <section id="home">
+            <section id="products">
+                <h1 class="section__title">Nossos Produtos</h1>
+                <ul id="product__list" data-list>
+                </ul>
+            </section>
+        </section>
+        <aside id="sidebar">
+            <section id="add__product">
+                <h1 class="section__title">Adicionar Produto</h1>
+                <form id="new-product-form" data-form>
+                    <input type="text" name="name" placeholder="Nome do Produto" required
+                        title="Por favor, insira o nome do produto" data-product-name>
+                    <input type="text" name="price" placeholder="Preço do Produto" pattern="^\d+([,.]\d{1,2})?$"
+                        title="Por favor, insira um valor monetário válido, como 10,99" inputmode="decimal" min="0"
+                        required data-price>
+                    <input type="url" name="image" placeholder="URL da imagem do produto"
+                        title="Por favor, insira a imagem do produto" required data-image>
+                    <div class="form__buttons">
+                        <button type="submit" class="save-btn">Adicionar</button>
+                        <button type="reset" class="clear-btn">Limpar</button>
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h1 class="section__title">Pesquisar</h1>
+                <form>
+                    <input type="search" name="search" id="search" placeholder="Digite o que procura" data-search>
+                    <div class="form__buttons"><button type="submit" data-search-button>Pesquisar</button>
+                        <button type="reset" data-show-all>Resetar</button>
+                    </div>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <footer id="footer">
+        <h1>Desenvolvido por <a href="">nico.dev</a></h1>
+        <p>Alura LATAM & Oracle Next Education - 2024 </p>
+    </footer>
+    <script src="/src/js/showProducts.js" type="module"></script>
+    <script src="/src/js/searchProduct.js" type="module"></script>
+    <script src="/src/js/createProduct.js" type="module"></script>
+</body>
+
+</html>
